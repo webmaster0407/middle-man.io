@@ -1,0 +1,117 @@
+body {
+	background-color: rgb(250, 250, 250);
+}
+
+header nav:first-child {
+	padding-left: 50px;
+}
+
+.sweet-alert h2 {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.confirm.btn.btn-lg.btn-danger {
+	border-radius: 20px;
+	font-size: 18px;
+
+}
+
+.blockUI.blockMsg.blockPage {
+    background-color: rgb(200, 230, 253);
+    cursor: wait;
+    border-radius: 10px;
+    opacity: 0.7;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0;
+    border: 0px solid transparent !important;
+    height: 0px !important;
+    width: 0px !important;
+    background-color: transparent;
+}
+
+.logo {
+	font-size: 50px;
+}
+
+.strong_x {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.main_section {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.main_section .card-body {
+	padding: 40px;
+}
+
+.main_section .card-body img {
+	width: 70%;
+	height: auto;
+}
+
+.container .card .card-body .row h1{
+	font-size: 100px;
+	font-weight: 600;
+	color: red;
+}
+
+.container .card .card-body .row .col-12 a button {
+	border-radius: 25px;
+	min-width: 250px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.main_section .card p {
+	line-height: 1.8;
+}
+
+.main_section .card p span {
+	font-weight: 600;
+	font-size: 18px;
+	color: rgb(40, 40, 200);
+}
+
+
+footer {
+	background-color: rgb(240, 240, 240);
+	min-height: 150px;
+	width: 100%;
+/*	position: fixed;
+	bottom: 0;*/
+	padding-top: 40px;
+	margin-top: 50px;
+}
+
+footer a {
+	margin-left: 30px;
+}
+
+@media(min-width:  768px) {
+	.container {
+		max-width: calc(100% - 40px);
+	}
+}
+
+@media(min-width:  992px) {
+	.container {
+		max-width: calc(100% - 100px);
+	}
+}
+
+@media(min-width:  1200px) {
+	.container {
+		max-width: calc(100% - 150px);
+	}
+}
+
+@media(max-width:  768px) {
+	.container {
+		max-width: calc(100% - 20px);
+	}
+}
